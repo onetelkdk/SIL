@@ -1011,15 +1011,6 @@ aside#sidebar {
     .top-bar .page-title {
       font-size: 16px;
       font-weight: 600; } }
-footer {
-  background: #e2e8f0;
-  height: 60px;
-  line-height: 60px;
-  padding: 0 20px;
-  text-align: left;
-  font-size: 11px;
-  color: #6789ae; }
-
 .panel {
   margin-bottom: 25px;
   background-color: white;
@@ -1608,10 +1599,6 @@ ul.recent-tweets {
     border-right: 12px solid transparent;
     content: "";
     z-index: 10; }
-
-.nav > li > a {
-  border-right: 1px solid #d9d9d9;
-  margin-right: 0; }
 
 .tab-content {
   padding: 10px 20px;

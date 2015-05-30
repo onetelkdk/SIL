@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>SIL - Definir Usuarios</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/mainstyles.css">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/acordion.css">
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	<!-- DataTables CSS -->
+	<link href="css/plugins/dataTables.bootstrap.css" rel="stylesheet">
+	<!-- Bootstrap CSS -->
+	<link href="css/bootstrap.css" rel="stylesheet" media="screen">
+</head>
+<body>
+	<body>
+		<header>
+			<div class="header_container">
+				<div class="logo">
+					<a href="index.html">
+					<img src="images/logo_sil.png" width="475" alt="Senado de la Republica Dominicana">
+					</a>
+				</div>
+			<div id="usr-top">
+				<div class="usrdiv">
+					<ul>
+						<li>
+						<a href="#">
+							<span class="hidden-xs pl15"> Hector Luis Lara <i class="fa fa-caret-down"></i></span>
+							<img src="images/foto_perfil_legislador.png" alt="">
+						</a>
+					</li>
+						<li>
+							<a href="#">
+								<span class="notif-total">3</span>
+								<div class="notification">
+									<i class="fa fa-bell-o"></i>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="email-total">1</span>
+								<div class="notification email">
+									<i class="fa fa-envelope-o"></i>
+								</div>
+							</a>
+						</li>
+						<li></li>
+					</ul>
+				</div>
+			</div>
+			</div>
+			<div style="clear:both"></div>
+			<div class="breadcrumb">
+				<h4>Iniciativas Legislativas / Mantenimientos / Definir Usuarios</h4>
+			</div>
+		</header>
+		<div class="main_container">
+			<div class="main_menu">
+				<div class="menuleft" style="">
+					<div class="nombre_top_menu">
+						<a href="menues_iniciativas_legislativas.html">
+							<img src="images/atras.png" style="margin-top:17px;float:left" title="REGRESAR AL MENU ANTERIOR">
+							<h2>Iniciativas Legislativas</h2>
+						</a>
+					</div>
+					<ul id="accordion" class="accordion">
+						<li>
+							<div class="link"><img src="images/ic_operaciones.png">OPERACIONES<i class="fa fa-chevron-down"></i></div>
+							<ul class="submenu">
+								<li><a href="#">Agenda Legislativa</a></li>
+								<li><a href="#">Agenda Priorizada</a></li>
+								<li><a href="#">Definición de Orden del Día</a></li>
+								<li><a href="#">Asignación de Tareas a Iniciativas</a></li>
+								<li><a href="#">Registro Informe DETEREL</a></li>
+							</ul>
+						</li>
+						<li>
+							<div class="link"><img src="images/ic_procesos.png">PROCESOS<i class="fa fa-chevron-down"></i></div>
+							<ul class="submenu">
+								<li><a href="#">Asignación Tareas a Iniciativas</a></li>
+								<li><a href="#">Registro Informe DETEREL</a></li>
+								<li><a href="#">Registro Informe Coordinadores</a></li>
+							</ul>
+						</li>
+						<li>
+							<div class="link"><img src="images/ic_reportes.png"></i>REPORTES<i class="fa fa-chevron-down"></i></div>
+							<ul class="submenu">
+								<li><a href="#">Reporte Iniciativas  Tipo, Sub-Tipo </a></li>
+								<li><a href="#">Reporte Iniciativa Resumida y Detallada</a></li>
+								<li><a href="#">Documentos:</a></li>
+								<li><a href="#">Oficio de Envió de Iniciativa</a></li>
+							</ul>
+						</li>
+						<li><div class="link"><img src="images/ic_consultas.png"></i>CONSULTAS<i class="fa fa-chevron-down"></i></div>
+							<ul class="submenu">
+								<li><a href="#">Consultas Avanzadas Agenda Legislativa </a></li>
+								<li><a href="#">Consultas Agenda Priorizada</a></li>
+								<li><a href="#">Detalle de Orden del Día</a></li>
+								<li><a href="#">Informe Nivel Resumido y Gráficos Estadísticos Agenda Legislativa</a></li>
+							</ul>
+						</li>
+						<li><div class="link"><img src="images/ic_mantenimientos.png">MANTENIMIENTOS<i class="fa fa-chevron-down"></i></div>
+							<ul class="submenu">
+								<li><a href="#">Definición Institucional</a></li>
+								<li><a href="#">Definición de Estructuras</a></li>
+								<li><a href="#">Definición de Parámetros del Sistema</a></li>
+								<li><a href="#">Creación de Periodos Constitucionales</a></li>
+								<li><a href="#">Definición Institucional</a></li>
+								<li><a href="#">Definición de Estructuras</a></li>
+								<li><a href="#">Definición de Parámetros del Sistema</a></li>
+								<li><a href="#">Creación de Periodos Constitucionales</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- 	////////////////////////////////////////////////////////////////////////////////////////// -->
+			<div class="main_data">
+				<div class="data" style="width:1000px; min-height: 580px;">
+					<div class="data_header">
+						<h5 class="data_titulo">Definir Usuarios</h5>
+					</div>
+					<div class="data_body">
+						<div class="row">
+							<div class="col-lg-12">
+								<div class="botones_nev">
+									<button type="button" class="btn btn-nuevo ic_mas" data-toggle="modal" data-target="#modal1">Nuevo</button>
+									<button type="button" class="btn btn-editar ic_lapiz">Editar</button>
+									<button type="button" class="btn btn-visualizar ic_monitor">Visualizar</button>
+								</div>
+								<div class="panel panel-default">
+									<div class="panel-heading">
+										<div class="table-responsive">
+											<table class="table table-striped table-bordered table-hover" id="dtt-legisladores">
+												<thead>
+													<tr class="table_heading">
+														<th></th>
+														<th>Nombre</th>
+														<th>Usuario</th>
+														<th>Rol</th>
+														<th>Estado</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td><input type="checkbox"></td>
+														<td>Hector L. Lara</td>
+														<td>hlh1089</td>
+														<td>Administrador</td>
+														<td><span class="estado Activo">Activo</span></td>
+													</tr>
+													
+													<tr>
+														<td><input type="checkbox"></td>
+														<td>José Luis Peralta</td>
+														<td>00301255581</td>
+														<td>Secretario</td>
+														<td><span class="estado Inactivo">Inactivo</span></span></td>
+													</tr>
+
+													<tr>
+														<td><input type="checkbox"></td>
+														<td>Alexandra Maria Andujar</td>
+														<td>willyad05</td>
+														<td>Administrador</td>
+														<td><span class="estado Activo">Activo</span></td>
+													</tr>
+													
+													<tr>
+														<td><input type="checkbox"></td>
+														<td>Carmen Rafaela Rodriguez</td>
+														<td>00301255581</td>
+														<td>Publico</td>
+														<td><span class="estado Inactivo">Inactivo</span></span></td>
+													</tr>
+													<tr>
+														<td><input type="checkbox"></td>
+														<td>Josefina Rafaela Rodriguez</td>
+														<td>0030581</td>
+														<td>Publico</td>
+														<td><span class="estado Inactivo">Inactivo</span></span></td>
+													</tr>
+													<tr>
+														<td><input type="checkbox"></td>
+														<td>Willy Alberto Diaz</td>
+														<td>willyad05</td>
+														<td>Administrador</td>
+														<td><span class="estado Activo">Activo</span></td>
+													</tr>
+													<tr>
+														<td><input type="checkbox"></td>
+														<td>Mario Alejandro</td>
+														<td>willyad05</td>
+														<td>Administrador</td>
+														<td><span class="estado Activo">Activo</span></td>
+													</tr>
+													<tr>
+														<td><input type="checkbox"></td>
+														<td>Henrry H. Percer</td>
+														<td>willyad05</td>
+														<td>Administrador</td>
+														<td><span class="estado Activo">Activo</span></td>
+													</tr>
+													<tr>
+														<td><input type="checkbox"></td>
+														<td>Juan Leandro Soto</td>
+														<td>willyad05</td>
+														<td>Administrador</td>
+														<td><span class="estado Activo">Activo</span></td>
+													</tr>
+													<tr>
+														<td><input type="checkbox"></td>
+														<td>Yohanna Maria D'León</td>
+														<td>willyad05</td>
+														<td>Administrador</td>
+														<td><span class="estado Activo">Activo</span></td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+						<!-- Modal ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+						<div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static">
+							<div class="modal-dialog modal-lg">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+										<h4 class="modal-title text-info" id="idmodal">Definir Usuarios</h4>
+									</div>
+									<!-- CUERPO ///////////////////////////////////////////// -->
+									<div class="modal-body">
+										<div class="col-lg-12 col-md-12 col-sx-12 col-sm-12" style="height: 170px;">
+											<div class="col col-3col">
+												<label for="camara_inicial">Empleado</label>
+												<select class="select-240">
+													<option></option> 
+													<option>Hector Luis Lara Zapata</option>
+													<option>Juan Roberto Smith</option>
+													<option>Maria Yohanna Brito</option>
+												</select>
+
+												<label for="camara_inicial">E-mail</label>
+												<input type="email" class="text-240"/>
+											</div>
+
+											<div class="col col-3col">
+												<label for="camara_inicial">Usuario</label>
+												<input type="text" class="text-240"/>
+
+												<label for="camara_inicial">Contraseña</label>
+												<input type="password" class="text-240"/>
+											</div>
+											<div class="col col-3col">
+												<label for="camara_inicial">Rol</label>
+												<select class="select-240">
+													<option></option> 
+													<option>Administrador</option>
+													<option>Publico</option>
+													<option>Tesorero</option>
+												</select>
+
+												<label for="camara_inicial">Repita Contraseña</label>
+												<input type="password" class="text-240"/>
+											</div>
+										</div>
+										<div class="env-email">
+											<input type="checkbox">	Marcar esta casilla para mandar un email de información de la nueva cuenta
+										</div>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-primary"><i class="fa fa-save"></i> Guardar</button>
+										<button type="button" class="btn btn-info"><i class="fa fa-save"></i> Guardar / Nuevo</button>
+										<button type="button" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Final modal /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Scripts -->
+		<script src="js/jquery.js"></script>
+		<script src="js/acordion.js"></script>
+		<!-- DataTables JavaScript -->
+		<script src="js/plugins/dataTables/jquery.dataTables.js"></script>
+		<script src="js/plugins/dataTables/dataTables.bootstrap.js"></script>
+		<!-- Custom Index -->
+		<script src="js/bootstrap.js"></script>
+		<script src="js/custom-components.js"></script>
+
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('#dtt-legisladores').dataTable({
+					"order": [[ 1, "desc" ]]
+				});
+			} );
+		</script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('#dtt-blqpartidario').dataTable({
+					"order": [[ 1, "desc" ]]
+				});
+			} );
+		</script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('#dtt-comisiones').dataTable({
+					"order": [[ 1, "desc" ]]
+				});
+			} );
+		</script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('#dtt-excusas').dataTable({
+					"order": [[ 1, "desc" ]]
+				});
+			} );
+		</script>
+	</body>
+</html>

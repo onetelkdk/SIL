@@ -4,6 +4,7 @@
 	<title>SIL</title>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="css/mainstyles.css">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" href="css/acordion.css">
 	<link href="css/font-awesome.min.css" rel="stylesheet">
 	<!-- DataTables CSS -->
@@ -16,8 +17,9 @@
 		<header>
 			<div class="header_container">
 				<div class="logo">
-					<img src="images/escudo.png" width="75">
-					<h1>Senado de la Republica Dominicana</h1>
+					<a href="index.html">
+					<img src="images/logo_sil.png" width="475" alt="Senado de la Republica Dominicana">
+					</a>
 				</div>
 			<div id="usr-top">
 				<div class="usrdiv">
@@ -314,7 +316,7 @@
 	                                                </div>
 	                                                <div class="col col-2col">
 	                                                	<label for="descripcion">Descripción</label>
-	                                                	<textarea class="textarea-2col" cols="47" rows="8">Escriba su descripción</textarea>
+	                                                	<textarea class="textarea-2col" cols="47" placeholder="Escriba una descripción aquí"></textarea>
 	                                                </div>  
 	                                                </div>                                            
 
@@ -364,8 +366,15 @@
 													<div style="height:215px">
 														<div class="col col-4col">
 															 <div class="font-default sn">Iniciativa: Si: <input type="checkbox"/>&nbsp;&nbsp; No: <input type="checkbox" /></div>
-															 <label for="analisis"><br><br> Analisis legislativo</label><select class="select-default"><option selected="select"></option><option>Ejemplo 1</option></select>
-															 <label for="analista">Analista</label><select class="select-default"><option selected="select"></option><option>Ejemplo 1</option></select>
+															 <label for="analisis" style=" margin-top: 29px !important;"><br><br> Analisis legislativo</label>
+															 <select class="select-default">
+																 <option selected="select"></option>
+																 <option>Ejemplo 1</option>
+															 </select>
+															 <label for="analista">Analista</label>
+															 <select class="select-default"><option selected="select"></option>
+																 <option>Ejemplo 1</option>
+															 </select>
 														</div>
 														<div class="col col-4col">
 															<label for="correcion_estilos" style="padding-top: 47px">Corrección de estilos</label><select class="select-default"><option selected="select"></option><option>Ejemplo 1</option></select>
@@ -471,7 +480,7 @@
 														</div>
 														<div style="padding-top: 1px;">
 															<label for="notas">Notas</label>
-															<textarea class="textarea-2col" style="width:222px !important; height: 222px !important" cols="50" rows="20"></textarea>
+															<textarea class="textarea-2col" style="width:222px !important; height: 222px !important" cols="50" rows="20" placeholder="Puede escribir notas aquí"></textarea>
 														</div>
 
 													</div>

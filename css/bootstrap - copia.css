@@ -26,7 +26,6 @@ abbr[title] {
 b,
 strong {
   font-weight: bold;
-  color: #60636B;
 }
 dfn {
   font-style: italic;
@@ -3091,17 +3090,15 @@ tbody.collapse.in {
   float: left;
   min-width: 160px;
   padding: 5px 0;
-  margin: 15px 10px 0;
+  margin: 2px 0 0;
   font-size: 14px;
   text-align: left;
   list-style: none;
-  color: #333;
   background-color: #fff;
   -webkit-background-clip: padding-box;
           background-clip: padding-box;
   border: 1px solid #ccc;
   border: 1px solid rgba(0, 0, 0, .15);
-  border-top: 2px solid #4a89dc;
   border-radius: 4px;
   -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
           box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
@@ -3202,7 +3199,6 @@ tbody.collapse.in {
   .navbar-right .dropdown-menu {
     right: 0;
     left: auto;
-    padding: 10px;
   }
   .navbar-right .dropdown-menu-left {
     right: auto;
@@ -3542,11 +3538,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav > li {
   position: relative;
   display: block;
-    float: right;
 }
 .nav > li > a {
   position: relative;
   display: block;
+  padding: 10px 15px;
 }
 .nav > li > a:hover,
 .nav > li > a:focus {
@@ -3578,6 +3574,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav > li > a > img {
   max-width: none;
 }
+.nav-tabs {
+  border-bottom: 1px solid #DDE9F2;
+}
 .nav-tabs > li {
   float: left;
   margin-bottom: -1px;
@@ -3593,7 +3592,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
-  color: #555 !important;
+  color: #555;
   cursor: default;
   background-color: #fff;
   border-bottom-color: transparent;
@@ -4244,7 +4243,13 @@ fieldset[disabled] .navbar-inverse .btn-link:hover,
 fieldset[disabled] .navbar-inverse .btn-link:focus {
   color: #444;
 }
-
+.breadcrumb {
+  padding: 8px 15px;
+  margin-bottom: 20px;
+  list-style: none;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid rgb(91, 148, 203);
+}
 .breadcrumb > li {
   display: inline-block;
 }
