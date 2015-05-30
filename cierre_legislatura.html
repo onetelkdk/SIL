@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>SIL</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/mainstyles.css">
+	<link rel="stylesheet" href="css/acordion.css">
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	<!-- DataTables CSS -->
+	<link href="css/plugins/dataTables.bootstrap.css" rel="stylesheet">
+	<!-- Bootstrap CSS -->
+	<link href="css/bootstrap.css" rel="stylesheet" media="screen">
+</head>
+<body>
+	<body>
+		<header>
+			<div class="header_container">
+				<div class="logo">
+					<img src="images/escudo.png" width="75">
+					<h1>Senado de la Republica Dominicana</h1>
+				</div>
+				<div id="usr-top">
+					<img src="images/logout.png" class="logout">
+					<img src="images/fotousr.png" class="fotousr">
+					<hgroup>
+						<h4 class="usr_lognombre">Hector Luis Lara Zapata</h4><br/>
+						<h5 class="sys_fechatop">Lunes 25 de Dic. 2015</h5>
+					</hgroup>	
+				</div>
+			</div>
+			<div style="clear:both"></div>
+			<div class="breadcrumb">
+				<h4>Iniciativas Legislativas / Mantenimientos / Cierre de Legislatura</h4>
+			</div>
+		</header>
+		<div class="main_container">
+			<div class="main_menu">
+				<div class="menuleft" style="">
+					<div class="nombre_top_menu">
+						<a href="menues_iniciativas_legislativas.html">
+							<img src="images/atras.png" style="margin-top:17px;float:left" title="REGRESAR AL MENU ANTERIOR">
+							<h2>Iniciativas Legislativas</h2>
+						</a>	
+					</div>
+					<ul id="accordion" class="accordion">
+						<li>
+							<div class="link"><img src="images/ic_operaciones.png">OPERACIONES<i class="fa fa-chevron-down"></i></div>
+							<ul class="submenu">
+								<li><a href="#">Agenda Legislativa</a></li>
+								<li><a href="#">Agenda Priorizada</a></li>
+								<li><a href="#">Definición de Orden del Día</a></li>
+								<li><a href="#">Asignación de Tareas a Iniciativas</a></li>
+								<li><a href="#">Registro Informe DETEREL</a></li>
+							</ul>
+						</li>
+						<li>
+							<div class="link"><img src="images/ic_procesos.png">PROCESOS<i class="fa fa-chevron-down"></i></div>
+							<ul class="submenu">
+								<li><a href="#">Asignación Tareas a Iniciativas</a></li>
+								<li><a href="#">Registro Informe DETEREL</a></li>
+								<li><a href="#">Registro Informe Coordinadores</a></li>
+							</ul>
+						</li>
+						<li>
+							<div class="link"><img src="images/ic_reportes.png"></i>REPORTES<i class="fa fa-chevron-down"></i></div>
+							<ul class="submenu">
+								<li><a href="#">Reporte Iniciativas  Tipo, Sub-Tipo </a></li>
+								<li><a href="#">Reporte Iniciativa Resumida y Detallada</a></li>
+								<li><a href="#">Documentos:</a></li>
+								<li><a href="#">Oficio de Envió de Iniciativa</a></li>
+							</ul>
+						</li>
+						<li><div class="link"><img src="images/ic_consultas.png"></i>CONSULTAS<i class="fa fa-chevron-down"></i></div>
+							<ul class="submenu">
+								<li><a href="#">Consultas Avanzadas Agenda Legislativa </a></li>
+								<li><a href="#">Consultas Agenda Priorizada</a></li>
+								<li><a href="#">Detalle de Orden del Día</a></li>
+								<li><a href="#">Informe Nivel Resumido y Gráficos Estadísticos Agenda Legislativa</a></li>
+							</ul>
+						</li>
+						<li><div class="link"><img src="images/ic_mantenimientos.png">MANTENIMIENTOS<i class="fa fa-chevron-down"></i></div>
+							<ul class="submenu">
+								<li><a href="#">Definición Institucional</a></li>
+								<li><a href="#">Definición de Estructuras</a></li>
+								<li><a href="#">Definición de Parámetros del Sistema</a></li>
+								<li><a href="#">Creación de Periodos Constitucionales</a></li>
+								<li><a href="#">Definición Institucional</a></li>
+								<li><a href="#">Definición de Estructuras</a></li>
+								<li><a href="#">Definición de Parámetros del Sistema</a></li>
+								<li><a href="#">Creación de Periodos Constitucionales</a></li>								
+							</ul>
+						</li>						
+					</ul>	        		
+				</div>
+			</div> 
+			<!-- 	////////////////////////////////////////////////////////////////////////////////////////// -->	    
+			<div class="main_data">
+				<div class="data" style="width:930px">
+					<div class="data_header">
+						<h5 class="data_titulo">Cierre de Legislatura</h5>
+					</div>
+					<div class="data_body">
+						<div class="row">
+							<div class="col-lg-12">
+								<div class="top-block">
+									<div class="col-3col fl">
+										<label for="codigo">Legislatura vigente</label> 
+                                        <select class="select-240">
+                                        	<option></option>
+                                        	<option>Legislatura No. 1</option>
+                                        </select>
+									</div>
+
+									<div class="col-3col fl">
+										<label for="codigo">Fecha Inicio</label> 
+										<select class="select-240">
+											<option></option>
+                                        	<option>22/01/2015</option>
+                                        </select>
+									</div>
+
+									<div class="col-3col">
+										<label for="codigo">Fecha Final</label> 
+										<select class="select-240">
+											<option></option>
+                                        	<option>22/04/2015</option>
+                                        </select>
+									</div>
+								</div>
+								<div class="panel panel-default">
+									<div class="panel-heading">
+										<div class="table-responsive">
+											<table class="table table-striped table-bordered table-hover" id="dataTables">
+												<thead>
+													<tr class="table_heading">
+														<th></th>
+														<th>Código</th>
+														<th>Tipo Iniciativa</th>
+														<th>Descripción</th>
+														<th>Proponente</th>
+														<th>Fecha Ingreso</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td><input type="checkbox"></td>
+														<td>1369877</td>
+														<td>Tipo A</td>
+														<td>Esta es una descripción de la legislatura</td>
+														<td>003-01259875-5</td>
+														<td>20/08/2015</td>
+													</tr>
+													<tr>
+														<td><input type="checkbox"></td>
+														<td>21024</td>
+														<td>Tipo B</td>
+														<td>Esta es una descripción de la legislatura</td>
+														<td>003-017459875-3</td>
+														<td>02/02/2013</td> 
+													</tr>
+													<tr>
+														<td><input type="checkbox"></td>
+														<td>33365</td>
+														<td>Tipo A</td>
+														<td>Esta es una descripción de la legislatura</td>
+														<td>003-01255555-5</td>
+														<td>20/04/2015</td> 
+													</tr>
+													<tr>
+														<td><input type="checkbox"></td>
+														<td>498774</td>
+														<td>Tipo A</td>
+														<td>Franjul Arias</td>
+														<td>003-01247575-2</td>
+														<td>22/06/2016</td> 
+													</tr>
+													<tr>
+														<td><input type="checkbox"></td>
+														<td>10245</td>
+														<td>Tipo CDA</td>
+														<td>Esta es una descripción de la legislatura</td>
+														<td>003-01259875-5</td>
+														<td>12/12/2017</td> 
+													</tr>
+													<tr>
+														<td><input type="checkbox"></td>
+														<td>654789</td>
+														<td>Tipo A</td>
+														<td>Esta es otra descripción de la legislatura</td>
+														<td>003-01288565-8</td>
+														<td>23/09/2014</td> 
+													</tr>
+													<tr>
+														<td><input type="checkbox"></td>
+														<td>124785</td>
+														<td>CDA</td>
+														<td>Esta es una descripción de la legislatura</td>
+														<td>003-01259875-5</td>
+														<td>03/12/2011</td> 
+													</tr>
+													<tr>
+														<td><input type="checkbox"></td>
+														<td>145873</td>
+														<td>CDA</td>
+														<td>Esta es otra descripción de la legislatura</td>
+														<td>003-01563275-9</td>
+														<td>02/03/2010</td> 
+													</tr>
+												</tbody>
+											</table>
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+						
+					</div>	
+				</div>
+			</div> 
+		</div>    		
+		<!-- Scripts -->
+		<script src="js/jquery.js"></script>
+		<script src="js/acordion.js"></script>
+		<!-- DataTables JavaScript -->
+		<script src="js/plugins/dataTables/jquery.dataTables.js"></script>
+		<script src="js/plugins/dataTables/dataTables.bootstrap.js"></script>
+		<script type="text/javascript" charset="utf-8"> 
+			$(document).ready(function() {
+			$('#dtt-estados-cambios').dataTable({
+			"order": [[ 1, "desc" ]]
+			});
+			} );
+		</script>
+		<!-- Custom Index -->
+		<script src="js/bootstrap.js"></script>
+		<script src="js/custom-components.js"></script>
+
+		<script type="text/javascript" charset="utf-8"> 
+			$(document).ready(function() {
+				$('#dataTables').dataTable({
+					"order": [[ 1, "desc" ]]
+				});
+			} );
+		</script> 
+	</body>
+	</html>
