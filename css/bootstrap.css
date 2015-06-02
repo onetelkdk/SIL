@@ -3547,6 +3547,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav > li > a {
   position: relative;
   display: block;
+  border-right: 1px solid #d9d9d9;
+  padding: 10px 15px;
 }
 .nav > li > a:hover,
 .nav > li > a:focus {

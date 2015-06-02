@@ -154,6 +154,7 @@ height: 100px;
 }
 #usr-top a{
   color: #55675F !important;
+  padding: 0 !important;
 }
 #usr-top h4, h5{margin:0 !important;}
 #usr-top span{
@@ -223,7 +224,6 @@ height: 100px;
     width: 323px;
     background: #00519F;
     z-index: 1;
-    margin-top: -10px;
 }
 .nombre_top_menu h2{
     font-size: 18px !important;
