@@ -1199,3 +1199,11 @@ fieldset.partidos-politicos input[type="radio"]{
   background: #f0f0f0;
   cursor: pointer;
 }
+.img-mnt{
+  width: 128px;
+  margin: 15px 0;
+  opacity: 0.1;
+}
+.mar-bottom20{
+  margin-bottom: 20px !important;
+}
