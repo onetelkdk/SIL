@@ -1225,3 +1225,6 @@ fieldset.partidos-politicos input[type="radio"]{
   color: #fff;
   margin: 0 0 0 300px !important;
 }
+.env-email{
+  margin-left: 15px;
+}
