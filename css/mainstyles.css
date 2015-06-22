@@ -25,7 +25,7 @@ footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
-      h1{font-size: 22px; margin-top: 15px;height: 30px !important;}
+h1{font-size: 22px; margin-top: 15px;height: 30px !important;}
 .bloque_body h3{margin-top: 15px;margin-bottom: 15px; font-size: 14px !important;}
 
 .breadcrumb h1{font-size: 22px; margin-top: 15px !important;}
@@ -40,7 +40,9 @@ body{
   line-height: 1;
 }
 
-
+td a{
+  text-decoration: none !important;
+}
 /* FUENTES DE LETRAS*/
 @font-face {
     font-family: Open Sans;
@@ -576,7 +578,6 @@ h5.data_titulo {
 .col{
   padding: 0;
   float: left;
-  margin-right: 22px;
 }
 .col:last-child{
   margin-right: 0px !important;
@@ -602,7 +603,14 @@ h5.data_titulo {
   border-radius: 3px;
   height: 161px;
   padding: 10px;
-
+}
+.textarea-full{
+  width: 885px;
+  height: 100px !important;
+  border: 1px solid #cdcdda;
+  border-radius: 3px;
+  height: 161px;
+  padding: 10px;
 }
 .adjuntar-default {
   width: 100px;
@@ -699,8 +707,8 @@ table.dataTable thead .sorting:after {
   color: #4A4A4A;
 }
 .botones_nev{
-  margin-bottom: 8px;
-  margin-top: -7px;
+  padding: 10px 0px;
+  margin-top: -15px;
 }
 .btn-nuevo {
   color: #fff;
@@ -750,8 +758,20 @@ table.dataTable thead .sorting:after {
   background-color: #ec971f;
   border-color: #d58512;
 }
+.btn-eliminar {
+  color: #fff;
+  background-color: #c9302c;
+  border-color: #ac2925;
+  padding-left: 30px !important;
+  padding-right: 12px !important;
+}
+.btn-eliminar:hover {
+  color: #fff;
+  background-color: #D83F3B;
+  border-color: #ac2925;
+}
 .btn-top-div{
-  margin: -5px 0px 15px 0;
+  margin: 0 15px;
 }
 .btn-agregar {
   color: #fff;
@@ -851,6 +871,12 @@ table.dataTable thead .sorting:after {
 }
 
 /* ICONOS BOTONES */
+.ic_safacon{
+  background-image: url("../images/ic_eliminar_white.png") !important;
+  background-size: 15px;
+  background-repeat: no-repeat;
+  background-position: 10px;
+}
 .ic_mas{
   background-image: url("../images/ic_btn_nuevo.png") !important;
   background-size: 15px;
@@ -869,17 +895,25 @@ table.dataTable thead .sorting:after {
   background-repeat: no-repeat;
   background-position: 10px;
 }
+.ic_view24{
+  background-image: url("../images/view24.png") !important;
+  background-size: 15px;
+  background-repeat: no-repeat;
+  background-position: 10px;
+  padding: 4px 10px 4px 30px !important;
+}
 /* FIN ICONOS BOTONES */
 
 .estado {
   font-size: 10px;
   font-weight: normal;
   color: white;
-  text-transform: uppercase;
   white-space: nowrap;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 .Activo {
   background-color: #46A546;
@@ -1227,4 +1261,24 @@ fieldset.partidos-politicos input[type="radio"]{
 }
 .env-email{
   margin-left: 15px;
+}
+.img-data{
+  padding: 0 15px;
+  text-align: center;
+}
+.img-data img{
+ width: 190px;
+ opacity: 0.05;
+}
+.lbl-inline{
+  display: inline !important;
+  margin-right: 5px;
+}
+.topbar-btn{
+  border: 1px solid #e5e5e5;
+  padding: 8px 12px;
+  height: 44px;
+  background-color: #f7f5f5;
+}
+.file-relacionador{
 }
