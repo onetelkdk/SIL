@@ -2252,7 +2252,7 @@ table th[class*="col-"] {
 fieldset {
   min-width: 0;
   padding: 10px;
-  margin: 0;
+  margin: 10px 0;
   border: 1px solid #cdcdda;
 }
 legend {
@@ -4307,6 +4307,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   cursor: default;
   background-color: #428bca;
   border-color: #428bca;
+  font-size: 14px;
 }
 .pagination > .disabled > span,
 .pagination > .disabled > span:hover,
@@ -4318,6 +4319,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   cursor: not-allowed;
   background-color: #fff;
   border-color: #DDE9F2;
+  font-size: 14px;
 }
 .pagination-lg > li > a,
 .pagination-lg > li > span {
