@@ -1,0 +1,347 @@
+@media only screen and (min-width: 240px) and (max-width: 319px){
+	header{
+		width: 100%;
+		height: 50px;
+	}
+	h1,h2,h3,h4,h5,h6{
+		font-size: 100% !important;
+	}
+	 .logo{
+	 	width: 100%;
+	 	margin: 0;
+	 	padding: 5px;
+	 	display: block;
+	 	border-bottom: 1px dotted #ADD8E6;
+	 }
+	 .logo img{
+	 	width: 100%;
+	 	margin: 0
+	 }
+	 .dropdown-menu{
+	 	margin: 5px 0px 0px -15px !important;
+	 	width: 100%;
+	 }
+	 .data_header{
+	 	border-top: 1px solid #DFE6EE;
+	 }
+	 .menuleft, .breadcrumb, .hidemenu, .Mfooter, #usr-top, .usrdiv{
+	 	display: none;
+	 }
+	 .main_data{
+	 	margin-left: 0;
+	 	margin-top: -95px;
+	 }
+	
+	 .btn{
+	 	width: 100%;
+	 	margin: 2px 0;
+	 }
+	
+	 .col{
+	 	width: 100%;
+	 	display: block;
+	 	margin: 0
+	 }
+	 input:not([type=""]), select, textarea, fieldset{
+	 	width: 100% !important
+	 }
+	select {
+    background-position: 99% center !important;
+	}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+	header{
+		width: 100%;
+		height: 128px;
+	}
+	h1,h2,h3,h4,h5,h6{
+		font-size: 100% !important;
+	}
+	 .logo{
+	 	width: 100%;
+	 	margin: 0;
+	 	padding: 5px;
+	 	display: block;
+	 	border-bottom: 1px dotted #ADD8E6;
+	 }
+	 .logo img{
+	 	width: 100%;
+	 	margin: 0
+	 }
+	 #usr-top{
+	 	width: 100%;
+	 	margin: 0;
+	 	padding: 10px;
+	 	display: block;
+	 }
+	 .dropdown-menu{
+	 	margin: 5px 0px 0px -15px !important;
+	 	width: 100%;
+	 }
+	 .usrdiv{
+	 	width: 100%;
+	 	float: left;
+ 	    margin-top: 16%;
+	 }
+	  .dataTables_length label, .dataTables_filter label{
+	 	width: 100% !important
+	 }
+	 .data_header{
+	 	border-top: 1px solid #DFE6EE;
+	 }
+	 .menuleft, .breadcrumb, .hidemenu, .Mfooter{
+	 	display: none;
+	 }
+	 .main_data{
+	 	margin-left: 0;
+	 	margin-top: -14px;
+	 }
+	
+	 .btn{
+	 	width: 100%;
+	 	margin: 2px 0;
+	 }
+	 .col{
+	 	width: 100%;
+	 	display: block;
+	 	margin: 0
+	 }
+	 input:not([type=""]), select, textarea, fieldset{
+	 	width: 100% !important
+	 }
+	select {
+    background-position: 99% center !important;
+	}
+}
+
+@media only screen and (min-width: 481px) and (max-width: 600px){
+	
+	header{
+		width: 100%;
+		height: 90px;
+		border-bottom: 1px solid #ADD8E6
+	}
+	h1,h2,h3,h4,h5,h6{
+		font-size: 100% !important;
+	}
+	 .logo{
+	 	width: 40%;
+	 	margin: 0;
+	 	padding: 5px;
+	 	display: block;
+	 }
+	 .logo img{
+	 	width: 100%;
+	 	margin: 0
+	 }
+	 .logoBig{
+	 	display: none;
+	 }
+	 .logoSmall{
+	 	display: block;
+	 }
+	 .breadcrumb{
+	 	border-bottom: 1px solid #ADD8E6
+	 }
+	 #usr-top{
+	 	width: 60%;
+	 	margin-top: -45px;
+	 	float: right;
+	 	padding: 10px;
+	 	display: block;
+	 }
+	 .dropdown-menu{
+	 	margin: 5px 0px 0px -15px !important;
+	 	width: 100%;
+	 }
+	 .usrdiv{
+	 	width: 100%;
+	 	float: left;
+ 	    margin-top: 16%;
+	 }
+	 .data_header{
+	 	border-top: 1px solid #DFE6EE;
+	 }
+	 .menuleft, .Mfooter, .breadcrumb{
+	 	display: none;
+	 }
+	 .main_data{
+	 	margin-left: 0;
+	 	margin-top: -55px;
+	 }
+	 .hidemenu .btn{
+	 	width: 40px
+	}
+	 .btn{
+	 	width: 50%;
+	 	margin: 2px 0;
+	 }
+	 .col{
+	 	width: 100%;
+	 	display: block;
+	 	margin: 0
+	 }
+	 input:not([type=""]), select, textarea, fieldset{
+	 	width: 100% !important
+	 }
+	select {
+    background-position: 99% center !important;
+	}
+
+}
+
+@media only screen and (min-width: 601px) and (max-width: 767px){
+	
+	header{
+		width: 100%;
+		height: 90px;
+		border-bottom: 1px solid #ADD8E6
+	}
+	h1,h2,h3,h4,h5,h6{
+		font-size: 100% !important;
+	}
+	 .logo{
+	 	width: 40%;
+	 	margin: 0;
+	 	padding: 5px;
+	 	display: block;
+	 }
+	 .logo img{
+	 	width: 90%;
+	 	margin: 0
+	 }
+	 .logoBig{
+	 	display: none;
+	 }
+	 .logoSmall{
+	 	display: block;
+	 }
+	 .breadcrumb{
+	 	border-bottom: 1px solid #ADD8E6
+	 }
+	 #usr-top{
+	 	width: 60%;
+	 	margin-top: -45px;
+	 	float: right;
+	 	padding: 10px;
+	 	display: block;
+	 }
+	 .dropdown-menu{
+	 	margin: 5px 0px 0px -15px !important;
+	 	width: 100%;
+	 }
+	 .usrdiv{
+	 	width: 100%;
+	 	float: left;
+ 	    margin-top: 13%;
+	 }
+	 .data_header{
+	 	border-top: 1px solid #DFE6EE;
+	 }
+	 .menuleft, .Mfooter, .breadcrumb{
+	 	display: none;
+	 }
+	 .main_data{
+	 	margin-left: 0;
+	 	margin-top: -55px;
+	 }
+	 .hidemenu .btn{
+	 	width: 40px
+	}
+	 .btn{
+	 	width: 50%;
+	 	margin: 2px 0;
+	 }
+	 .col{
+	 	width: 100%;
+	 	display: block;
+	 	margin: 0
+	 }
+	 input:not([type=""]), select, textarea, fieldset{
+	 	width: 100% !important
+	 }
+	select {
+    background-position: 99% center !important;
+	}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+	
+	header{
+		width: 100%;
+		height: 120px;
+		border-bottom: 1px solid #ADD8E6
+	}
+	 .logoBig{
+	 	display: block;
+	 }
+	 .logoSmall{
+	 	display: none;
+	 }
+	 .breadcrumb{
+	 	border-bottom: 1px solid #ADD8E6
+	 }
+	 .data_header{
+	 	border-top: 1px solid #DFE6EE;
+	 }
+	 .menuleft,{
+	 	display: none;
+	 }
+
+	 .hidemenu .btn{
+	 	width: 40px
+	}
+
+	 div.form-group input:not([type=""]), select, textarea, fieldset{
+	 	width: 100% !important
+	 }
+	 .bue{
+	 	font-size: 100%
+	 }
+	 select.form-control{
+	 	width: 75px !important;
+	 }
+
+
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 2560px){
+	
+	header{
+		width: 100%;
+		height: 120px;
+		border-bottom: 1px solid #ADD8E6
+	}
+	 .logoBig{
+	 	display: block;
+	 }
+	 .logoSmall{
+	 	display: none;
+	 }
+	 .breadcrumb{
+	 	border-bottom: 1px solid #ADD8E6
+	 }
+	 .data_header{
+	 	border-top: 1px solid #DFE6EE;
+	 }
+	 .menuleft,{
+	 	display: none;
+	 }
+
+	 .hidemenu .btn{
+	 	width: 40px
+	}
+
+	 div.form-group input:not([type=""]), select, textarea, fieldset{
+	 	width: 100% !important
+	 }
+	 .bue{
+	 	font-size: 100%;
+	 }
+	 select.form-control{
+	 	width: 75px !important;
+	 }
+
+}

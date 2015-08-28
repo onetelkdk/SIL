@@ -1,0 +1,4 @@
+D:\MaxApp\MaxData\bin\Debug\MaxData.dll
+D:\MaxApp\MaxData\bin\Debug\MaxData.pdb
+D:\MaxApp\MaxData\obj\Debug\MaxData.dll
+D:\MaxApp\MaxData\obj\Debug\MaxData.pdb

@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F50DE47A-35A4-4795-948D-F9F2C968B808}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MaxBll</RootNamespace>
+    <AssemblyName>MaxBll</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="clsAnioLegislativo.cs" />
+    <Compile Include="clsAsistenciaComision.cs" />
+    <Compile Include="clsCamaraInicial.cs" />
+    <Compile Include="clsClaseDocumentos.cs" />
+    <Compile Include="clsComision.cs" />
+    <Compile Include="clsCondicionActual.cs" />
+    <Compile Include="clsConfirmacionComision.cs" />
+    <Compile Include="clsConfirmacionInvitados.cs" />
+    <Compile Include="clsContacto.cs" />
+    <Compile Include="clsDepartamentos.cs" />
+    <Compile Include="clsDoc.cs" />
+    <Compile Include="clsEstado.cs" />
+    <Compile Include="clsExcusa.cs" />
+    <Compile Include="clsFuncion.cs" />
+    <Compile Include="clsIniciativaPriorizada.cs" />
+    <Compile Include="clsIniciativas.cs" />
+    <Compile Include="clsIniHis.cs" />
+    <Compile Include="clsLegisladores.cs" />
+    <Compile Include="clsLegislaturaInicio.cs" />
+    <Compile Include="clsLegislaturaRegistro.cs" />
+    <Compile Include="clsMateria.cs" />
+    <Compile Include="clsAdmRolDetalles.cs" />
+    <Compile Include="clsModulos.cs" />
+    <Compile Include="clsMunicipios.cs" />
+    <Compile Include="clsPartido.cs" />
+    <Compile Include="clsPeriodoConstitucional.cs" />
+    <Compile Include="clsAdmPar.cs" />
+    <Compile Include="clsPoderdeOrigen.cs" />
+    <Compile Include="clsProgramas.cs" />
+    <Compile Include="clsProvincias.cs" />
+    <Compile Include="clsrFunUser.cs" />
+    <Compile Include="clsRoles.cs" />
+    <Compile Include="clsSalones.cs" />
+    <Compile Include="clsSectores.cs" />
+    <Compile Include="clsSesiones.cs" />
+    <Compile Include="clsSourceBase.cs" />
+    <Compile Include="clsSubTipoIniciativa.cs" />
+    <Compile Include="clsTipoComision.cs" />
+    <Compile Include="clsTipoDocumentos.cs" />
+    <Compile Include="clsTipoIniciativa.cs" />
+    <Compile Include="clsTipos.cs" />
+    <Compile Include="clsTipoSesion.cs" />
+    <Compile Include="clsTiposPrg.cs" />
+    <Compile Include="clsUsuarios.cs" />
+    <Compile Include="clsUtils.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MaxData\MaxData.csproj">
+      <Project>{6a27f1ff-40f6-4cce-8272-cc8abcc44b31}</Project>
+      <Name>MaxData</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

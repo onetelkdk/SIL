@@ -1,0 +1,14 @@
+C:\Fuentes\MaxApp\MaxBll\bin\Debug\MaxBll.dll
+C:\Fuentes\MaxApp\MaxBll\bin\Debug\MaxBll.pdb
+C:\Fuentes\MaxApp\MaxBll\bin\Debug\MaxData.dll
+C:\Fuentes\MaxApp\MaxBll\bin\Debug\MaxData.pdb
+C:\Fuentes\MaxApp\MaxBll\obj\Debug\MaxBll.csprojResolveAssemblyReference.cache
+C:\Fuentes\MaxApp\MaxBll\obj\Debug\MaxBll.dll
+C:\Fuentes\MaxApp\MaxBll\obj\Debug\MaxBll.pdb
+D:\MaxApp\MaxBll\bin\Debug\MaxBll.dll
+D:\MaxApp\MaxBll\bin\Debug\MaxBll.pdb
+D:\MaxApp\MaxBll\bin\Debug\MaxData.dll
+D:\MaxApp\MaxBll\bin\Debug\MaxData.pdb
+D:\MaxApp\MaxBll\obj\Debug\MaxBll.csprojResolveAssemblyReference.cache
+D:\MaxApp\MaxBll\obj\Debug\MaxBll.dll
+D:\MaxApp\MaxBll\obj\Debug\MaxBll.pdb

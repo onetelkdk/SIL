@@ -1,0 +1,101 @@
+<?xml version="1.0" standalone="yes"?>
+<Mensajes>
+  <Mensaje>
+    <Id>1</Id>
+    <Programa>frm_regasi.aspx</Programa>
+    <DescPrograma>Control de Asistencia a Comisiones</DescPrograma>
+    <Codigo>01</Codigo>
+    <Descripcion>Su mensaje ha sido guardado Satisfactoriamente</Descripcion>
+  </Mensaje>
+  <Mensaje>
+    <Id>2</Id>
+    <Programa>frm_regasi.aspx</Programa>
+    <DescPrograma>Control de Asistencia a Comisiones</DescPrograma>
+    <Codigo>02</Codigo>
+    <Descripcion>Registrada Satisfactoriamente</Descripcion>
+  </Mensaje>
+  <Mensaje>
+    <Id>3</Id>
+    <Programa>frm_regasi.aspx</Programa>
+    <DescPrograma>Control de Asistencia a Comisiones</DescPrograma>
+    <Codigo>03</Codigo>
+    <Descripcion>Mensaje de Prueba</Descripcion>
+  </Mensaje>
+  <Mensaje>
+    <Id>4</Id>
+    <Programa>frm_regasi.aspx</Programa>
+    <DescPrograma>Control de Asistencia a Comisiones</DescPrograma>
+    <Codigo>04</Codigo>
+    <Descripcion>Prueba JDM 2 Mod</Descripcion>
+  </Mensaje>
+  <Mensaje>
+    <Id>5</Id>
+    <Programa>frm_regasi.aspx</Programa>
+    <DescPrograma>Control de Asistencia a Comisiones</DescPrograma>
+    <Codigo>05</Codigo>
+    <Descripcion>Prueba José Miguel</Descripcion>
+  </Mensaje>
+  <Mensaje>
+    <Id>6</Id>
+    <Programa>frm_regasi.aspx</Programa>
+    <DescPrograma>Control de Asistencia a Comisiones</DescPrograma>
+    <Codigo>06</Codigo>
+    <Descripcion>Registro Guardado Satisfactoriamente</Descripcion>
+  </Mensaje>
+  <Mensaje>
+    <Id>7</Id>
+    <Programa>frm_ManMsj.aspx</Programa>
+    <DescPrograma>Registrar Mensajes del Sistema</DescPrograma>
+    <Codigo>01</Codigo>
+    <Descripcion>El campo Código se encuentra en blanco, favor insertar Mod</Descripcion>
+  </Mensaje>
+  <Mensaje>
+    <Id>8</Id>
+    <Programa>frm_ManMsj.aspx</Programa>
+    <DescPrograma>Registrar Mensajes del Sistema</DescPrograma>
+    <Codigo>02</Codigo>
+    <Descripcion>Seleccione un Nombre de Programa</Descripcion>
+  </Mensaje>
+  <Mensaje>
+    <Id>9</Id>
+    <Programa>frm_ManMsj.aspx</Programa>
+    <DescPrograma>Registrar Mensajes del Sistema</DescPrograma>
+    <Codigo>03</Codigo>
+    <Descripcion>El campo Mensaje se encuentra en blanco, favor insertar</Descripcion>
+  </Mensaje>
+  <Mensaje>
+    <Id>10</Id>
+    <Programa>frm_ManMsj.aspx</Programa>
+    <DescPrograma>Registrar Mensajes del Sistema</DescPrograma>
+    <Codigo>04</Codigo>
+    <Descripcion>Mensaje guardado satisfactoriamente</Descripcion>
+  </Mensaje>
+  <Mensaje>
+    <Id>11</Id>
+    <Programa>frm_ManMsj.aspx</Programa>
+    <DescPrograma>Registrar Mensajes del Sistema</DescPrograma>
+    <Codigo>05</Codigo>
+    <Descripcion>El código a Registrar para el programa seleccionado ya existe</Descripcion>
+  </Mensaje>
+  <Mensaje>
+    <Id>12</Id>
+    <Programa>frm_ManMsj.aspx</Programa>
+    <DescPrograma>Registrar Mensajes del Sistema</DescPrograma>
+    <Codigo>06</Codigo>
+    <Descripcion>Prueba</Descripcion>
+  </Mensaje>
+  <Mensaje>
+    <Id>13</Id>
+    <Programa>frm_ManMsj.aspx</Programa>
+    <DescPrograma>Registrar Mensajes del Sistema</DescPrograma>
+    <Codigo>MensajeSatisfactorio</Codigo>
+    <Descripcion>Registro Guardado Satisfactoriamente</Descripcion>
+  </Mensaje>
+  <Mensaje>
+    <Id>14</Id>
+    <Programa>frm_ManMsj.aspx</Programa>
+    <DescPrograma>Registrar Mensajes del Sistema</DescPrograma>
+    <Codigo>011</Codigo>
+    <Descripcion>Pryeba</Descripcion>
+  </Mensaje>
+</Mensajes>
